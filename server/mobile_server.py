@@ -11,7 +11,7 @@ from utils.all_classifiers import all_classifiers
 
 HOST = '192.168.56.4'  # change!
 PORT = 8081
-DATA_DIR = "server/recv_from_phone"  # change!
+DATA_DIR = "/nas.dbms/ikuto/ProtectivePerturbation/server/recv_from_phone"  # change!
 
 def get_args():
     parser = ArgumentParser()
