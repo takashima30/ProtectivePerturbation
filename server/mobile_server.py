@@ -9,11 +9,9 @@ from pytorch_lightning import seed_everything
 from mobile_data import C10IMGDATA_MOBILE
 from utils.all_classifiers import all_classifiers
 
-# HOST = '192.168.6.154'  # 元々のコード
 HOST = '192.168.56.4'  # change!
 PORT = 8081
-# DATA_DIR = "/home/tangbao/codes/ProtectivePerturbation_MMSys22/recv_from_phone"  # 元々のコード
-DATA_DIR = "/nas.dbms/ikuto/ProtectivePerturbation/server/recv_from_phone"  # change!
+DATA_DIR = "server/recv_from_phone"  # change!
 
 def get_args():
     parser = ArgumentParser()
